@@ -41,8 +41,8 @@ cd Hospital-Management-System
 Ensure MySQL is running and create required databases:
 ```sql
 CREATE DATABASE doctor_db;
-CREATE DATABASE patient_db;
-CREATE DATABASE appointment_db;
+CREATE DATABASE patients_db;
+CREATE DATABASE appointments_db;
 CREATE DATABASE bed_management_db;
 ```
 
@@ -60,22 +60,22 @@ Repeat for Patient (8083), Appointment (8082), and Nurse (8084) microservices wi
  4. Start Eureka Server
 Navigate to the Eureka server directory:
 ```sh
-cd EurekaServer
+cd hmsEurekaServer
 mvn spring-boot:run
 ```
 
  5. Start Microservices
 For each microservice, run:
 ```sh
-cd DoctorMicroservice   Or PatientMicroservice, AppointmentMicroservice, NurseMicroservice
+cd HmsDoctorMicroservice   Or HmsPatientMicroservice, HmsAppointmentMicroservice, HmsNurseMicroservice
 mvn spring-boot:run
 ```
 
  6. Install & Run React Frontend
-Each frontend folder (`doctor-frontend`, `patient-frontend`, `nurse-frontend`) contains a separate React application.
+Each frontend folder (`doctor-registration`, `patient`, `nurse`) contains a separate React application.
 
 ```sh
-cd doctor-frontend   Change to respective frontend folder
+cd doctor-registration   Change to respective frontend folder
 npm install          Install dependencies
 npm start            Run the React frontend
 ```
