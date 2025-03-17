@@ -43,7 +43,7 @@ Ensure MySQL is running and create required databases:
 CREATE DATABASE doctor_db;
 CREATE DATABASE patient_db;
 CREATE DATABASE appointment_db;
-CREATE DATABASE nurse_db;
+CREATE DATABASE bed_management_db;
 ```
 
  3. Configure `application.properties` for each Microservice
