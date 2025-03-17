@@ -1,0 +1,3 @@
+[submodule "doctor-registration"]
+	path = doctor-registration
+	url = ./doctor-registration
