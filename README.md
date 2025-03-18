@@ -2,6 +2,7 @@
 
 Overview
 This project is a Hospital Management System (HMS) built using Spring Boot, React, MySQL, and Eureka Server. It consists of multiple microservices for Doctors, Patients, Nurses, and Appointments. Each microservice has its own database and communicates using REST APIs.
+![Screenshot 2025-03-16 225134](https://github.com/user-attachments/assets/aa58f4eb-a1d5-4da4-807d-6f219458187f)
 
 Architecture
 - Backend: Java (Spring Boot, JDBC, Eureka Server, RestTemplate)
