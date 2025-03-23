@@ -22,7 +22,10 @@
         <java.version>17</java.version>
         <spring-cloud.version>2025.0.0-M2</spring-cloud.version>
     </properties>
-
+    <properties>
+         <sonar.organization>ashutoshlembhe</sonar.organization>
+         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
